@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 Cartão de Amor 💖</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+       
+        <div class="welcome-message">
+            <h1>💝 Olá, brebre! 💝</h1>
+            <p>Bem-vinda ao meu cartão especial feito só para você!</p>
+        </div>
+
+        
+        <div class="card">
+            <div class="card-content">
+                <h2>Você é a garota mais bela do mundo! ✨</h2>
+                <p id="main-message">Desde o primeiro momento que você entrou na minha vida, tudo mudou. Você trouxe cores para os meus dias cinzentos e sorrisos genuínos para o meu rosto. Obrigado por ser você, por estar aqui e por me permitir amar você do jeito que faço. Mesmo com nossas discussões e afastamentos, nós sempre nos ajudamos e eu amo muito você! </p>
+            </div>
+        </div>
+
+        
+        <div class="buttons-section">
+            <h3>Clique nos botões para receber mensagens de amor:</h3>
+            <div class="buttons-container">
+                <button class="love-button btn-1" onclick="showMessage(0)">
+                    <span class="heart">💖</span>
+                    <span class="text">Mensagem 1</span>
+                </button>
+                <button class="love-button btn-2" onclick="showMessage(1)">
+                    <span class="heart">💕</span>
+                    <span class="text">Mensagem 2</span>
+                </button>
+                <button class="love-button btn-3" onclick="showMessage(2)">
+                    <span class="heart">💗</span>
+                    <span class="text">Mensagem 3</span>
+                </button>
+            </div>
+        </div>
+
+       
+        <div class="message-display" id="messageDisplay">
+            <p id="dynamicMessage"></p>
+        </div>
+
+       
+        <footer class="footer">
+            <p>Feito com todo o meu amor para você! 💕</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
